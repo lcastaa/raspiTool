@@ -36,10 +36,7 @@ def main():
 def firewall():
     os.chdir('/bin')
     path_to_file = 'ufw'
-<<<<<<< HEAD
     path = Path(path_to_file)
-=======
->>>>>>> 1f24783b9904277a4327b9562e0c8ce6813f6e69
     if path.is_file():
         firewallrules = []
         limit = int(input('How many rules you have?: '))
