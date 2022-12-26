@@ -5,6 +5,8 @@ from sys import platform
 from os.path import exists
 from pathlib import Path
 
+#Developed by Luis Castaneda (lcastaa)
+
 
 def main():
     print('')
